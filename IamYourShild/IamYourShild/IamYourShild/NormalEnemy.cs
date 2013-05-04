@@ -9,6 +9,7 @@ namespace IamYourShild
 {
     class NormalEnemy : EnemyBase
     {
+        // 連携テスト
         public NormalEnemy(GameScene owner, Color defaultColor, Rectangle rectData, string drawKeyword, int enemyLife, Vector2 targetPosition)
             : base(owner, defaultColor, rectData, drawKeyword, enemyLife, targetPosition)
         {
